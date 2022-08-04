@@ -44,6 +44,7 @@ def main():
 
     #write_results(results, model)
  
+#Create files needed by PSL
 def create_files():
     filebuilder = PSLFileBuilder()
     filebuilder.build_map_files()
