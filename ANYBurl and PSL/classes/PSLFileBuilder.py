@@ -22,7 +22,9 @@ class PSLFileBuilder():
               f.write(f"\n{t}\t{t_map_name}")
         f.close()
         
-    def build_obs_files(self):
+    def build_obs_files(self, rels):
+        
+        
         return
     
     def build_target_files(self):
