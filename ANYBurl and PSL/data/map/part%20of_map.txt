@@ -1,0 +1,27 @@
+1370	West%20Africa
+964	East%20Africa
+1721	African%20Union
+1408	European%20Union
+166	Latin%20America
+1480	North%20America
+1506	Christianity
+1413	Europe
+1461	Asia
+1728	Middle%20East
+1272	Universal%20Music%20Group
+1660	Hispanic%20America
+1806	Commonwealth%20of%20Nations
+260	People's%20Republic%20of%20China1370	West%20Africa
+964	East%20Africa
+1721	African%20Union
+1408	European%20Union
+166	Latin%20America
+1480	North%20America
+1506	Christianity
+1413	Europe
+1461	Asia
+1728	Middle%20East
+1272	Universal%20Music%20Group
+1660	Hispanic%20America
+1806	Commonwealth%20of%20Nations
+260	People's%20Republic%20of%20China

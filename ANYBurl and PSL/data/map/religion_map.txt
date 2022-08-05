@@ -1,0 +1,23 @@
+1649	Anglicanism
+1182	Eastern%20Orthodox%20Church
+497	Catholicism
+1708	atheism
+1968	Judaism
+1349	Islam
+992	agnosticism
+1506	Christianity
+1767	Lutheranism
+2007	Catholic%20Church
+1684	American%20Jews
+1747	Jewish%20people1649	Anglicanism
+1182	Eastern%20Orthodox%20Church
+497	Catholicism
+1708	atheism
+1968	Judaism
+1349	Islam
+992	agnosticism
+1506	Christianity
+1767	Lutheranism
+2007	Catholic%20Church
+1684	American%20Jews
+1747	Jewish%20people

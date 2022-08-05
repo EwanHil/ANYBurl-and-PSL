@@ -1,0 +1,17 @@
+1747	Jewish%20people
+1145	Ashkenazi%20Jews
+1684	American%20Jews
+1486	African%20Americans
+141	French%20people
+1336	English%20people
+1344	Germans
+1493	Russians
+759	Croatia1747	Jewish%20people
+1145	Ashkenazi%20Jews
+1684	American%20Jews
+1486	African%20Americans
+141	French%20people
+1336	English%20people
+1344	Germans
+1493	Russians
+759	Croatia
