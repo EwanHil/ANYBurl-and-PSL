@@ -1,0 +1,14 @@
+264	French
+1518	Portuguese
+518	English
+243	Arabic
+533	German
+1655	Italian
+1852	Polish
+1954	Czech
+1956	Hungarian
+1801	Russian
+1279	Latin
+212	Spanish
+1833	American%20English
+1950	Swedish

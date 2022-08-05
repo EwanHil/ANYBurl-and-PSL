@@ -1,0 +1,3 @@
+147	tuberculosis
+209	bipolar%20disorder
+145	stroke
