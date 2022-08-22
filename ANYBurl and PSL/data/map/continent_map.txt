@@ -1,9 +1,0 @@
-263	Africa
-1480	North%20America
-1413	Europe
-1535	Oceania
-1461	Asia263	Africa
-1480	North%20America
-1413	Europe
-1535	Oceania
-1461	Asia
