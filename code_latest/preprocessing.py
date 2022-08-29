@@ -5,8 +5,7 @@ Created on Thu Aug  4 09:49:29 2022
 @author: ewanhilton
 """
 
-
-from classes.DatasetGenerator import DatasetGenerator
+from classes.DatasetGenerator import generate_dataset_file
 from classes.EntityConverter import EntityConverter
 from classes.PSLFileBuilder import PSLFileBuilder
 from pykeen.datasets import CoDExSmall
@@ -22,10 +21,9 @@ def pre_main():
     val_triples = dataset.validation.mapped_triples.numpy()
     test_triples = dataset.testing.mapped_triples.numpy()   
     
-    generator = DatasetGenerator()
-    generator.generate_dataset_file('train.txt','CoDEx',train_triples,dataset)
-    generator.generate_dataset_file('valid.txt','CoDEx',val_triples,dataset)
-    generator.generate_dataset_file('test.txt','CoDEx',test_triples,dataset)
+    generate_dataset_file('train.txt','CoDEx',train_triples,dataset)
+    generate_dataset_file('valid.txt','CoDEx',val_triples,dataset)
+    generate_dataset_file('test.txt','CoDEx',test_triples,dataset)
     
     if CREATE_FILES:
         dataset = CoDExSmall()

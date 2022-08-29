@@ -3,9 +3,9 @@ import json
 class EntityConverter():
     def __init__(self,dataset):
         with open('classes/json/codex_entities.json', encoding="utf-8") as f:
-          codex_entities = json.load(f)
+            codex_entities = json.load(f)
         with open('classes/json/codex_relations.json', encoding="utf-8") as f:
-          codex_relations = json.load(f)
+            codex_relations = json.load(f)
         
         self.entityid_to_name = { entityid:codex_entities[entityid]['label'] for entityid in codex_entities }
         self.relid_to_name = { relid:codex_relations[relid]['label'] for relid in codex_relations }
