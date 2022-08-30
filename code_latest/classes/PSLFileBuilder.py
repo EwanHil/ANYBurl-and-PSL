@@ -49,7 +49,7 @@ class PSLFileBuilder():
     """
     def build_target_files(self):
         print("Building _targets.txt files")
-        for relindex,name in tqdm(self.entity_converter.relindex_to_name.items()):        
+        for relindex,name in tqdm(self.entity_converter.relindex_to_name.items()):                   
             f = open(f"data/targets/{encode_text(name)}_targets.txt", "w")
             items_added = set()
             for h,r,t in self.train_triples:
@@ -71,6 +71,21 @@ class PSLFileBuilder():
             for h,r,t in self.val_triples:
                 if r == relindex:
                     f.write(f"{h}\t{t}\t1.0\n") 
-            f.close()         
+            f.close()     
+
+def build_target_files(name, relindex, entity_converter, train_triples):
+    print(f"Building _targets.txt files for {name}")          
+    f = open(f"data/targets/{encode_text(name)}_targets.txt", "w")
+    items_added = set()
+    for h,r,t in train_triples:
+        if r == relindex:
+            items_added.add((h,t))    
+    for headindex,headname in entity_converter.entityindex_to_name.items():  
+        for tailindex,tailname in entity_converter.entityindex_to_name.items(): 
+            if headindex == tailindex:
+                continue
+            if (headindex, tailindex) not in items_added:
+                f.write(f"{headindex}\t{tailindex}\n")            
+    f.close() 
 
     
